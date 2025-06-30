@@ -13,6 +13,8 @@ import git from '../../Images/file_type_git_icon_130581.png';
 import wp from '../../Images/wp_icon-icons.com_62788.png';
 import figma from '../../Images/figma_5968705.png';
 import vscode from '../../Images/file_type_vscode_icon_130084.png'
+import tailwindcss from '../../Images/file_type_tailwind_icon_130128.png'
+import chadrackemoji from '../../Images/chadrack-emoji.png';
 
 function SecondComponent() {
     return (
@@ -76,6 +78,9 @@ function SecondComponent() {
                     <div className='w-[70px] h-[70px] bg-white rounded-xl'>
                         <img src={wp} alt="wp" />
                     </div>
+                    <div className='w-[70px] h-[70px] bg-white rounded-xl'>
+                        <img src={tailwindcss} alt="wp" />
+                    </div>
                 </div>
                 <p className=' text-black font-semibold text-[35px] pl-[30px] mt-[15px]'>
                     Mes outils
@@ -94,6 +99,29 @@ function SecondComponent() {
                         <img src={git} alt="git" />
                     </div>
                 </div>
+            </div>
+            <div className="p-[10px] bg-[#907E4B] text-white">
+                <div>
+                    <img src={chadrackemoji} alt="react" />
+                </div>
+                <p className="text-center font-semibold text-[35px] pl-[30px]">
+                    What's next ?
+                </p>
+                <p className="p-[30px] text-center">
+                    <span className="font-thin text-[25px]">
+                        Prêt à démarrer votre prochain projet ?
+                        Envoyez-moi un e-mail pour que nous puissions en discuter et donner vie à vos idées.
+                        Ce sera un réel plaisir de collaborer avec vous !
+                    </span>
+                </p>
+                <a
+                href="mailto:chadrackmbala20@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center w-[300px] h-[50px] border-2 border-[#907E4B] text-[#907E4B] rounded-[25px] cursor-pointer transition-all duration-300 hover:bg-[#907E4B] hover:text-[#1D3331] mx-auto"
+            >
+                Travaillons ensemble
+            </a>
             </div>
 
         </>

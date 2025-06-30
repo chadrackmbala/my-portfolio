@@ -18,7 +18,7 @@ function FirstComponent() {
                 J’aime coder des projets qui ont du sens et apporter ma
                 touche aux idées qu’on me confie.
             </p>
-            <br />#85AAB2
+            <br />
             <p className='text-lg text-center text-white'>Retrouvez-moi sur <a
                 href="https://www.linkedin.com/in/chadrack-mbala-m-8b3a7326b/"
                 target="_blank"
