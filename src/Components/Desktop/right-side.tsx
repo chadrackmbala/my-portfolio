@@ -1,21 +1,18 @@
-import '../App.css'
-import chadrackImg from '../Images/Chadrack.jpg';
-import reactJs from '../Images/react_original_logo_icon_146374.png';
-import node from '../Images/nodejs_original_wordmark_logo_icon_146412.png';
-import npm from '../Images/npm_icon_130871.png';
-import tsx from '../Images/file_type_typescript_official_icon_130107.png';
-import js from '../Images/js.png';
-import html from '../Images/html-5_174854.png';
-import css from '../Images/css-3_5968242.png';
-import mysql from '../Images/mysqlworkbench_93532.png';
-import github from '../Images/Github_icon-icons.com_66788.png';
-import git from '../Images/file_type_git_icon_130581.png';
-import wp from '../Images/wp_icon-icons.com_62788.png';
-import figma from '../Images/figma_5968705.png';
-import vscode from '../Images/file_type_vscode_icon_130084.png'
-
-
-
+import '../../App.css'
+import chadrackImg from '../../Images/Chadrack.jpg';
+import reactJs from '../../Images/react_original_logo_icon_146374.png';
+import node from '../../Images/nodejs_original_wordmark_logo_icon_146412.png';
+import npm from '../../Images/npm_icon_130871.png';
+import tsx from '../../Images/file_type_typescript_official_icon_130107.png';
+import js from '../../Images/js.png';
+import html from '../../Images/html-5_174854.png';
+import css from '../../Images/file_type_css_icon_130661.png';
+import mysql from '../../Images/mysqlworkbench_93532.png';
+import github from '../../Images/Github_icon-icons.com_66788.png';
+import git from '../../Images/file_type_git_icon_130581.png';
+import wp from '../../Images/wp_icon-icons.com_62788.png';
+import figma from '../../Images/figma_5968705.png';
+import vscode from '../../Images/file_type_vscode_icon_130084.png'
 
 function RightSide() {
     return (
@@ -28,7 +25,6 @@ function RightSide() {
                     À propos de moi
                 </p>
                 <p className='text-black p-[30px]'>
-
                     <span className='font-thin text-[25px] '>
                         Mbote na bino 👋 Je m'appelle Chadrack Mbala.
                         Ma passion pour la création numérique remonte à 2012, lorsque j’ai découvert les merveilles du HTML et du CSS. Depuis, je n’ai jamais cessé de coder.
