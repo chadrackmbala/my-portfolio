@@ -16,20 +16,20 @@ function OverLeftSide() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <span className="text-[#907E4B]">LinkedIn</span>
-            </a>,
+                <span className="hover:underline text-[#907E4B]">LinkedIn</span>
+            </a>,&nbsp;
                 <a
                     href="https://github.com/chadrackmbala"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span className="text-[#907E4B]"> GitHub</span>
+                    <span className="hover:underline text-[#907E4B]">GitHub</span>
                 </a> ou <a
                     href="https://stackoverflow.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span className="text-[#907E4B]">StackOverFlow </span>
+                    <span className="hover:underline text-[#907E4B]">StackOverFlow</span>&nbsp;
                 </a>
                 pour découvrir mon univers ou simplement discuter !</p><br />
             <a

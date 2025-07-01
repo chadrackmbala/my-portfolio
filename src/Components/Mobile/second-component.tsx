@@ -1,5 +1,5 @@
 import '../../App.css'
-import chadrackImg from '../../Images/Chadrack.jpg';
+// import chadrackImg from '../../Images/Chadrack.jpg';
 import reactJs from '../../Images/react_original_logo_icon_146374.png';
 import node from '../../Images/nodejs_original_wordmark_logo_icon_146412.png';
 import npm from '../../Images/npm_icon_130871.png';
@@ -19,9 +19,9 @@ import chadrackemoji from '../../Images/chadrack-emoji.png';
 function SecondComponent() {
     return (
         <>
-            <div className="">
-                <img src={chadrackImg} alt="Chadrack" />
-            </div>
+            <div className="w-[400px] h-[400px] flex justify-center items-center mx-auto">
+                    <img src={chadrackemoji} alt="react" />
+                </div>
             <div className='p-[5px] bg-white'>
                 <p className=' text-black font-semibold text-[35px] pl-[30px]'>
                     À propos de moi
@@ -81,6 +81,7 @@ function SecondComponent() {
                     <div className='w-[70px] h-[70px] bg-white rounded-xl'>
                         <img src={tailwindcss} alt="wp" />
                     </div>
+                    
                 </div>
                 <p className=' text-black font-semibold text-[35px] pl-[30px] mt-[15px]'>
                     Mes outils
@@ -118,8 +119,7 @@ function SecondComponent() {
                 href="mailto:chadrackmbala20@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-[300px] h-[50px] border-2 border-[#907E4B] text-[#907E4B] rounded-[25px] cursor-pointer transition-all duration-300 hover:bg-[#907E4B] hover:text-[#1D3331] mx-auto"
-            >
+                className="text-[18px] flex justify-center items-center w-[230px] h-[40px] border-2 border-[#907E4B] text-[#907E4B] rounded-[25px] cursor-pointer transition-all duration-300 hover:bg-[#907E4B] hover:text-[#1D3331] mx-auto">
                 Travaillons ensemble
             </a>
             </div>
